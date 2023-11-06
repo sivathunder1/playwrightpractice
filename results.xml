@@ -1,0 +1,116 @@
+<testsuites id="" name="" tests="4" failures="2" skipped="0" errors="0" time="45.490852">
+<testsuite name="ParametrizedTestJson.spec.js" timestamp="2023-11-02T05:49:27.077Z" hostname="chromium" tests="4" failures="2" skipped="0" time="36.453" errors="0">
+<testcase name="Parametized testtest1" classname="ParametrizedTestJson.spec.js" time="10.002">
+<failure message="ParametrizedTestJson.spec.js:37:13 Parametized testtest1" type="FAILURE">
+<![CDATA[  [chromium] › ParametrizedTestJson.spec.js:37:13 › Parametized testtest1 ──────────────────────────
+
+    Test timeout of 10000ms exceeded.
+
+    Error: page.goto: Page closed
+    =========================== logs ===========================
+    navigating to "https://demoqa.com/webtables", waiting until "load"
+    ============================================================
+
+      37 |         test(`Parametized test${data.test}`, async({page})=>{
+      38 |
+    > 39 |             await page.goto("https://demoqa.com/webtables");
+         |                        ^
+      40 |             const title = await page.title();
+      41 |             console.log("Page title is : "+title);
+      42 |             await expect.soft(title).toBe('DEMOQA');
+
+        at C:\JsTestFramewroks\playwrighttests\tests\ParametrizedTestJson.spec.js:39:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest1-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest1-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest1-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\ParametrizedTestJson-Parametized-testtest1-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest1-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest1-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Parametized testtest2" classname="ParametrizedTestJson.spec.js" time="8.496">
+<system-out>
+<![CDATA[Page title is : DEMOQA
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Parametized testtest3" classname="ParametrizedTestJson.spec.js" time="7.947">
+<system-out>
+<![CDATA[Page title is : DEMOQA
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest3-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Parametized testtest4" classname="ParametrizedTestJson.spec.js" time="10.008">
+<failure message="ParametrizedTestJson.spec.js:37:13 Parametized testtest4" type="FAILURE">
+<![CDATA[  [chromium] › ParametrizedTestJson.spec.js:37:13 › Parametized testtest4 ──────────────────────────
+
+    Test timeout of 10000ms exceeded.
+
+    Error: page.goto: Page closed
+    =========================== logs ===========================
+    navigating to "https://demoqa.com/webtables", waiting until "load"
+    ============================================================
+
+      37 |         test(`Parametized test${data.test}`, async({page})=>{
+      38 |
+    > 39 |             await page.goto("https://demoqa.com/webtables");
+         |                        ^
+      40 |             const title = await page.title();
+      41 |             console.log("Page title is : "+title);
+      42 |             await expect.soft(title).toBe('DEMOQA');
+
+        at C:\JsTestFramewroks\playwrighttests\tests\ParametrizedTestJson.spec.js:39:24
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest4-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest4-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\ParametrizedTestJson-Parametized-testtest4-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\ParametrizedTestJson-Parametized-testtest4-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest4-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest4-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\ParametrizedTestJson-Parametized-testtest4-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

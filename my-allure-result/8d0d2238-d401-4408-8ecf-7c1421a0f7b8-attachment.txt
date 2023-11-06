@@ -1,0 +1,14 @@
+The values are :   Web Development
+The values are :   jQuery
+The values are :   Bootstrap
+The values are :   HTML
+The values are :   CSS
+The values are :   Angular
+The values are :   Programming Languages
+The values are :   Java
+The values are :   C#
+The values are :   Python
+The values are :   Databases
+The values are :   MySQL
+The values are :   Oracle
+The values are :   MS SQL Server
