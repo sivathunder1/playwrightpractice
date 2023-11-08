@@ -10,6 +10,7 @@ test('test', async ({ page }) => {
   await page.getByPlaceholder('Password').click({
     clickCount: 3
   });
+  
   await page.getByPlaceholder('Password').fill('admin123');
   await page.getByRole('button', { name: 'Login' }).click();
   await page.getByRole('link', { name: 'PIM' }).click();

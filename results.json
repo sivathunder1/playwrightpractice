@@ -91,18 +91,18 @@
     "shard": null,
     "updateSnapshots": "missing",
     "version": "1.39.0",
-    "workers": 4,
+    "workers": 6,
     "webServer": null
   },
   "suites": [
     {
-      "title": "ParametrizedTestJson.spec.js",
-      "file": "ParametrizedTestJson.spec.js",
+      "title": "Youtube.spec.js",
+      "file": "Youtube.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Parametized testtest1",
+          "title": "test",
           "ok": false,
           "tags": [],
           "tests": [
@@ -116,42 +116,34 @@
                 {
                   "workerIndex": 0,
                   "status": "timedOut",
-                  "duration": 10002,
+                  "duration": 10015,
                   "error": {
                     "message": "\u001b[31mTest timeout of 10000ms exceeded.\u001b[39m"
                   },
                   "errors": [
                     {
                       "message": "\u001b[31mTest timeout of 10000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "C:\\JsTestFramewroks\\playwrighttests\\tests\\ParametrizedTestJson.spec.js",
-                        "column": 24,
-                        "line": 39
-                      },
-                      "message": "Error: page.goto: Page closed\n=========================== logs ===========================\nnavigating to \"https://demoqa.com/webtables\", waiting until \"load\"\n============================================================\n\n\u001b[0m \u001b[90m 37 |\u001b[39m         test(\u001b[32m`Parametized test${data.test}`\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m             \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Page title is : \"\u001b[39m\u001b[33m+\u001b[39mtitle)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m             \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(title)\u001b[33m.\u001b[39mtoBe(\u001b[32m'DEMOQA'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\JsTestFramewroks\\playwrighttests\\tests\\ParametrizedTestJson.spec.js:39:24\u001b[22m"
                     }
                   ],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2023-11-02T05:49:27.544Z",
+                  "startTime": "2023-11-08T06:22:47.094Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest1-chromium\\test-failed-1.png"
+                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\Youtube-test-chromium\\test-failed-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest1-chromium\\video.webm"
+                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\Youtube-test-chromium\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest1-chromium\\trace.zip"
+                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\Youtube-test-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -159,164 +151,17 @@
               "status": "unexpected"
             }
           ],
-          "id": "5fbb24494fa484367486-d6cbdec064d7465e65b0",
-          "file": "ParametrizedTestJson.spec.js",
-          "line": 37,
-          "column": 13
-        },
-        {
-          "title": "Parametized testtest2",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 10000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 8496,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Page title is : DEMOQA\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-11-02T05:49:44.470Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest2-chromium\\trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5fbb24494fa484367486-4394e83c3c1567fb3905",
-          "file": "ParametrizedTestJson.spec.js",
-          "line": 37,
-          "column": 13
-        },
-        {
-          "title": "Parametized testtest3",
-          "ok": true,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 10000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 7947,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Page title is : DEMOQA\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-11-02T05:49:53.566Z",
-                  "attachments": [
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest3-chromium\\trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "5fbb24494fa484367486-0cdc91c14cc01069403b",
-          "file": "ParametrizedTestJson.spec.js",
-          "line": 37,
-          "column": 13
-        },
-        {
-          "title": "Parametized testtest4",
-          "ok": false,
-          "tags": [],
-          "tests": [
-            {
-              "timeout": 10000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "timedOut",
-                  "duration": 10008,
-                  "error": {
-                    "message": "\u001b[31mTest timeout of 10000ms exceeded.\u001b[39m"
-                  },
-                  "errors": [
-                    {
-                      "message": "\u001b[31mTest timeout of 10000ms exceeded.\u001b[39m"
-                    },
-                    {
-                      "location": {
-                        "file": "C:\\JsTestFramewroks\\playwrighttests\\tests\\ParametrizedTestJson.spec.js",
-                        "column": 24,
-                        "line": 39
-                      },
-                      "message": "Error: page.goto: Page closed\n=========================== logs ===========================\nnavigating to \"https://demoqa.com/webtables\", waiting until \"load\"\n============================================================\n\n\u001b[0m \u001b[90m 37 |\u001b[39m         test(\u001b[32m`Parametized test${data.test}`\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 39 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://demoqa.com/webtables\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m             \u001b[36mconst\u001b[39m title \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mtitle()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m             console\u001b[33m.\u001b[39mlog(\u001b[32m\"Page title is : \"\u001b[39m\u001b[33m+\u001b[39mtitle)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m             \u001b[36mawait\u001b[39m expect\u001b[33m.\u001b[39msoft(title)\u001b[33m.\u001b[39mtoBe(\u001b[32m'DEMOQA'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\JsTestFramewroks\\playwrighttests\\tests\\ParametrizedTestJson.spec.js:39:24\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2023-11-02T05:50:01.515Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest4-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest4-chromium\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\JsTestFramewroks\\playwrighttests\\test-results\\ParametrizedTestJson-Parametized-testtest4-chromium\\trace.zip"
-                    }
-                  ]
-                }
-              ],
-              "status": "unexpected"
-            }
-          ],
-          "id": "5fbb24494fa484367486-e4357d1cd2cf5a4dc583",
-          "file": "ParametrizedTestJson.spec.js",
-          "line": 37,
-          "column": 13
+          "id": "ac9476a8e79e951674d3-3a22d73575c00ac8af93",
+          "file": "Youtube.spec.js",
+          "line": 3,
+          "column": 5
         }
       ]
     }
   ],
   "errors": [],
   "stats": {
-    "startTime": "2023-11-02T05:49:27.042Z",
-    "duration": 45466.379
+    "startTime": "2023-11-08T06:22:46.573Z",
+    "duration": 19490.451
   }
 }
